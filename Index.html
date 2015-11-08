@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--    modificação de acento-->
+        <meta charset="UTF-8">
+        <title>Club de Tricô</title>
+
+    </head>
+
+
+    <body>
+<!--        comentários antram aqui-->
+
+        <h1>Club de Tricô</h1>
+
+        <div>
+        <h2>Experimentação com tecido e tecnología</h2>
+
+
+        <p>Projeto colaborativo e multidisciplinar de experimentação com tricô e tecnología.</p>
+
+<!--        imag internet-->
+<!--    <img src="http://t2.gstatic.com/images?q=tbn:ANd9GcSBPZcIZdTbEJHQccRQHJfl2P4E_tgQUc7ICWJXvbRmfdxyzur1LA">-->
+
+        <!--        imag de uma pasta-->
+
+        <img src="loop.png">
+
+            <script>
+        $("img").click(function(){
+        alert("Oi!");
+        });
+
+            </script>
+        <p id="nossobotao"></p>
+
+<button type="button"
+onclick="document.getElementById('nossobotao').innerHTML = 'juntese-nos!'">
+Curtir!</button>
+            <p></p>
+
+  <form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+      <br>
+  E-mail:<br>
+  <input type="text" name="E-mail">
+       <br>
+
+
+<input type="button" value="Click me" onclick="document.getElementById('nossobotao').innerHTML = 'enviado!'">
+</form>
+
+<!--        link -->
+        <a href="https://www.facebook.com/clubdetrico/">VISITE NOSSA FANPAGE!</a>
+
+    </body>
+
+</html>

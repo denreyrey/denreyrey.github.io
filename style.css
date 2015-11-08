@@ -1,0 +1,64 @@
+ h1 { color:gray;
+                font-family:serif;
+                font-size: 50px;
+            }
+            body { background-color:white;
+
+            }
+ h2 { color:gray;
+                font-family:serif;
+                font-size: 20px;
+            }
+ p { color:gray;
+                font-family:serif;
+                font-size: 20px;
+            }
+/*center text*/
+            h2 { text-align: center }
+            h1 { text-align: center }
+            p { text-align: center }
+
+/*center image e image size*/
+            img {
+                width: 800px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+            }
+
+    a{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+/*            cor da p verde*/
+            p#cinca {
+                color:darkgrey;
+
+            }
+a { padding: 10px;
+    fill: 1px  solid grey;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+#principal p {
+    margin: 100px 20px;
+    display: flex;
+    flex-direction:  row;
+    justify-content: flex-start;
+}
+
+form{
+    text-align: center;
+}
+
+demo{
+    text-align: center;
+}
+
+
